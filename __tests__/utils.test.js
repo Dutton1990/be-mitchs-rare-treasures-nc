@@ -28,7 +28,9 @@ it('shop object in array has different reference to original shop object', () =>
       },
     ];
     lookupObject(shops)
-    expect(lookupObject(shops)[0]).not.toBe(shops[0]);
+    expect(lookupObject(shops)[0]).not.toBe(shops[0])
+
+    
 
 });
 
