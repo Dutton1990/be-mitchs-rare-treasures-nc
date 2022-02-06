@@ -23,6 +23,9 @@ const formatTreasureData = (shopNameAndId, treasureData) => {
   return formattedData;
   };
 
+  const bubble = (pop) => {
+    return pop * 2
+  }
   
 
 module.exports = { lookupObject, formatTreasureData };
