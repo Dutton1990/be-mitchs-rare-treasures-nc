@@ -24,7 +24,7 @@ const formatTreasureData = (shopNameAndId, treasureData) => {
   };
 
   const bubble = (pop) => {
-    return pop * 2
+    return pop * 3
   }
   
 
